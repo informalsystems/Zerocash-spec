@@ -1,6 +1,6 @@
 # Zerocash Formal Specification
 
-A Quint specification of the Zerocash decentralized anonymous payment scheme from [Ben-Sasson et al., IEEE S&P 2014]([zerocash-oakland2014.pdf](http://zerocash-project.org/media/pdf/zerocash-oakland2014.pdf)). The spec models protocol-level security properties and demonstrates the **faerie gold attack** — where an attacker creates coins with duplicate serial numbers that appear valuable but are only partially spendable — alongside the Zcash Sapling fix that blocks it.
+A Quint specification of the Zerocash decentralized anonymous payment scheme from [Ben-Sasson et al., IEEE S&P 2014](http://zerocash-project.org/media/pdf/zerocash-oakland2014.pdf). The spec models protocol-level security properties and demonstrates the **faerie gold attack** — where an attacker creates coins with duplicate serial numbers that appear valuable but are only partially spendable — alongside the Zcash Sapling fix that blocks it.
 
 Both the original vulnerable protocol and the fix live side by side in `zerocash.qnt`, enabling direct comparison through invariant checking and attack demonstrations.
 
